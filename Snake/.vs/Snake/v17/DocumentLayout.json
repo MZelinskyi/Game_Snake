@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Direction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|solutionrelative:Direction.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Food.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|solutionrelative:Food.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|solutionrelative:Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|solutionrelative:Snake.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{26630B92-7AD8-4DF9-B002-6F8A6B1F8DB2}|Snake.vcxproj|solutionrelative:Snake.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Direction.h",
+              "DocumentMoniker": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Direction.h",
+              "RelativeDocumentMoniker": "Direction.h",
+              "ToolTip": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Direction.h",
+              "RelativeToolTip": "Direction.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-05T13:15:50.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Game.cpp",
+              "RelativeDocumentMoniker": "Game.cpp",
+              "ToolTip": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Game.cpp",
+              "RelativeToolTip": "Game.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-05T13:08:47.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Game.h",
+              "RelativeDocumentMoniker": "Game.h",
+              "ToolTip": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Game.h",
+              "RelativeToolTip": "Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-05T13:08:07.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-05T12:57:07.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Food.h",
+              "DocumentMoniker": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Food.h",
+              "RelativeDocumentMoniker": "Food.h",
+              "ToolTip": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Food.h",
+              "RelativeToolTip": "Food.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-05T12:56:45.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Snake.h",
+              "DocumentMoniker": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Snake.h",
+              "RelativeDocumentMoniker": "Snake.h",
+              "ToolTip": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Snake.h",
+              "RelativeToolTip": "Snake.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-05T12:56:36.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Snake.cpp",
               "DocumentMoniker": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Snake.cpp",
               "RelativeDocumentMoniker": "Snake.cpp",
               "ToolTip": "C:\\Users\\squar\\OneDrive\\Documents\\GitHub\\Game_Snake\\Snake\\Snake.cpp",
               "RelativeToolTip": "Snake.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-05T12:46:32.723Z",
               "EditorCaption": ""

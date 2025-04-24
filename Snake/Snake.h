@@ -13,10 +13,11 @@ class Snake
 public:
 	Snake(int startX, int startY);
 
-	void move();
+	void move(bool grow = false);
 	void ChangeDirection(Direction newDirection);
 	Position getHeadPosition() const;
 	const std::vector <Position>& getBody() const;
+	Direction getDirection() const;
 
 
 private:

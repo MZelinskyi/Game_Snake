@@ -7,7 +7,7 @@ Snake::Snake(int startX, int startY)
 	direction = Direction::RIGHT;
 }
 
-void Snake::move()
+void Snake::move(bool grow)
 {
 	Position head = body.front();
 
@@ -24,7 +24,12 @@ void Snake::move()
 	}
 
 	body.insert(body.begin(), head);
-	body.pop_back();
+
+	if (!grow)
+	{
+		body.pop_back();
+	}
+	
 }
 
 void Snake::ChangeDirection(Direction newDirection)
@@ -40,4 +45,9 @@ Position Snake::getHeadPosition() const
 const std::vector<Position>& Snake::getBody() const
 {
 	return body;
+}
+
+Direction Snake::getDirection() const
+{
+	return direction;
 }

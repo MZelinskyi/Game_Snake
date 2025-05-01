@@ -1,11 +1,14 @@
 #include <iostream>
 #include "Game.h"
+#include "Menu.h"
+#include <conio.h>
+
+
+
+
 
 int main()
 {
-    Game game;
-    game.run();
-
-
+    showMenu();
     return 0;
 }

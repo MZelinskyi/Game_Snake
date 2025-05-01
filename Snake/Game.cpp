@@ -6,9 +6,10 @@
 
 
 
-Game::Game() : snake(m_width / 2, m_height / 2), isRunning(true), m_score(0)
+Game::Game() : snake(m_width / 2, m_height / 2), isRunning(true), m_score(0), m_highScore(0)
 {
 	std::srand(static_cast<unsigned int>(std::time(nullptr)));
+	loadingHighScore();
 	generateFood();
 }
 
@@ -24,10 +25,13 @@ void Game::run()
 		std::this_thread::sleep_for(std::chrono::milliseconds(150));
 	}
 
+	saveHighScore();
+
 	clearScreen();
-	std::cout << "Game Over" << std::endl;
+	std::cout << "==== Game Over ====" << std::endl;
 	std::cout << "Your Score:" << m_score << std::endl;
-	std::cout << "Press any key to exit";
+	std::cout << "High Score:" << m_highScore << std::endl;
+	std::cout << "Press any key to return to menu...";
 	_getch();
 
 }
@@ -89,7 +93,7 @@ void Game::update()
 	}
 
 	Position newHead = snake.getHeadPosition();
-	if (newHead.x < 0 || newHead.x >= m_width || newHead.y < 0 || newHead.x >= m_height)
+	if (newHead.x < 0 || newHead.x >= m_width - 1 || newHead.y <= 0 || newHead.y >= m_height - 1)
 	{
 		isRunning = false;
 		return;
@@ -117,11 +121,20 @@ void Game::render()
 		{
 			bool printed = false;
 
-			for (const Position& segment : snake.getBody())
+			const std::vector<Position>& body = snake.getBody();
+
+			for (size_t i = 0; i < body.size(); i++)
 			{
-				if (segment.x == x && segment.y == y)
+				if (body[i].x == x && body[i].y == y)
 				{
-					std::cout << "0";
+					if (i == 0)
+					{
+						std::cout << "@";
+					}
+					else
+					{
+						std::cout << "&";
+					}
 					printed = true;
 					break;
 				}
@@ -129,7 +142,7 @@ void Game::render()
 
 			if (!printed && x == food.x && y == food.y)
 			{
-				std::cout << "*";
+				std::cout << "#";
 				printed = true;
 			}
 
@@ -138,7 +151,7 @@ void Game::render()
 			{
 				if (y == 0 || y == m_height - 1 || x == 0 || x == m_width - 1)
 				{
-					std::cout << "#";
+					std::cout << "*";
 				}
 				else 
 				{
@@ -181,5 +194,33 @@ void Game::generateFood()
 			return;
 		}
 
+	}
+}
+
+
+void Game::loadingHighScore()
+{
+	std::ifstream file("highscore.txt");
+	if (file.is_open())
+	{
+		file >> m_highScore;
+		file.close();
+	}
+	else
+	{
+		m_highScore = 0;
+	}
+}
+
+void Game::saveHighScore()
+{
+	if (m_score > m_highScore)
+	{
+		std::ofstream file("highscore.txt");
+		if (file.is_open())
+		{
+			file << m_score;
+			file.close();
+		}
 	}
 }
